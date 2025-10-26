@@ -1,0 +1,70 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.fruit-container {
+  width: 350px;
+  background: #fff;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.fruit-container h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.fruit-list {
+  padding: 0;
+  margin: 0 0 20px 0;
+  list-style: none;
+}
+
+.fruit-list li {
+  background: #eee;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.fruit-list li:hover {
+  background: #e0e0e0;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.actions button {
+  padding: 10px 14px;
+  background: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.actions button:hover {
+  background: #3578c6;
+}
